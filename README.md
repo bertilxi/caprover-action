@@ -1,6 +1,6 @@
 # caprover-action
-Action to deploy on Caprover server.
 
+Action to deploy on Caprover server.
 
 ## Inputs
 
@@ -10,7 +10,7 @@ Action to deploy on Caprover server.
 
 ### `password`
 
-**Required** CapRover admin password. Use ${{ secrets.CAPROVER_PASSWORD }} for better security.
+**Required** CapRover admin password. Use \${{ secrets.CAPROVER_PASSWORD }} for better security.
 
 ### `appname`
 
@@ -18,10 +18,10 @@ Action to deploy on Caprover server.
 
 ### `branch`
 
-Branch which will be deployed. *Default: master*
-
+Branch which will be deployed. _Default: master_
 
 ## Example usage
+
 ```
 uses: AlexxNB/caprover-action@v1
 with:
